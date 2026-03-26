@@ -6,17 +6,40 @@ A behavior-driven decision engine that analyzes user activity and recommends nex
 ---
 
 ## 🔥 What I build
-- goosage-api → 상태 판단 엔진
-- goosage-scripts → 행동 시뮬레이션
-- video-behavior-lab → 영상 행동 분석
+
+단순 CRUD가 아니라  
+사용자의 행동 데이터를 기반으로 상태를 해석하고  
+다음 행동을 추천하는 시스템을 만든다.
+
+- goosage-api → 상태 판단 엔진 (Prediction / NextAction)
+- goosage-scripts → 행동 시뮬레이션 및 실험 자동화
+- video-behavior-lab → 영상 기반 행동 분석
 
 ---
 
-## 🧠 Concept
-행동 → 상태 → 판단 → 다음 행동
+## 🧠 How it works
+
+GooSage는 다음 흐름으로 동작한다.
+
+행동(Event) → 상태(Snapshot) → 판단(Prediction) → 행동 추천(NextAction)
+
+- 이벤트는 study_events에 누적
+- Snapshot으로 현재 상태 압축
+- Rule 기반으로 위험도 판단
+- 최소 행동(NextAction) 추천
 
 ---
 
 ## 🎯 Goal
+
 사용자의 행동 데이터를 기반으로  
-현재 상태를 해석하고 최소 행동을 추천하는 시스템 구축
+“지금 이 사람은 어떤 상태인가?”를 판단하고  
+가장 부담이 적고 효과적인 다음 행동을 제안하는 시스템 구축
+
+---
+
+## ⚙️ Tech
+
+- Java / Spring Boot
+- MySQL / Docker
+- Event-driven + Rule-based Decision Engine
