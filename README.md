@@ -1,7 +1,7 @@
 # GooSage Nexus 🚀
 
-행동 데이터 기반 Decision Engine 플랫폼  
-A behavior-driven decision engine that analyzes user activity and recommends next actions.
+- 행동 데이터를 기반으로 상태를 판단하고 다음 행동을 추천하는 Decision Engine을 구축한다.  
+- A behavior-driven decision engine that analyzes user activity and recommends optimal next actions.
 
 ---
 
@@ -32,12 +32,9 @@ GooSage는 다음 흐름으로 동작한다.
 
 ## 🎯 Goal
 
-- 사용자의 행동 데이터를 기반으로 현재 상태를 판단하고,  
-위험 패턴을 조기에 감지하는 Decision Engine 구축  
-
-- 이를 통해 금연·금주·도박 등 중독성 행동을 예방하고,  
-사용자가 지속 가능한 행동을 선택할 수 있도록  
-부담이 적고 효과적인 다음 행동을 제안하는 시스템 구현
+- 사용자의 행동 데이터를 기반으로 현재 상태를 판단하고 위험 패턴을 조기에 감지  
+- 금연·금주·도박 등 중독성 행동을 예방하고 회복을 지원  
+- 최소 부담으로 실행 가능한 NextAction을 추천하는 시스템 구축
 
 ---
 
