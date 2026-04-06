@@ -11,7 +11,8 @@
 사용자의 행동 데이터를 기반으로 상태를 해석하고  
 다음 행동을 추천하는 시스템을 만든다.
 
-- goosage-api → 상태 판단 엔진 (Prediction / NextAction)
+- goosage-api → 상태 판단 엔진 (Prediction / NextAction) 학습개선
+- goosage-recovery → 상태 판단 엔진 도박중독개선
 - goosage-scripts → 행동 시뮬레이션 및 실험 자동화
 - video-behavior-lab → 영상 기반 행동 분석
 
