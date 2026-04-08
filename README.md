@@ -1,4 +1,4 @@
-# GooSage Nexus 🚀
+# LooseGoose 🚀
 
 - 행동 데이터를 기반으로 상태를 판단하고 다음 행동을 추천하는 Decision Engine을 구축한다.  
 - A behavior-driven decision engine that analyzes user activity and recommends optimal next actions.
